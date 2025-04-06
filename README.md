@@ -1,6 +1,6 @@
 ## Project Overview
 
-This project implements a highly flexible **object pooling system** in **Unity**, designed to manage any object type that inherits from the `PoolableObject` abstract class. Object pooling is a critical optimization technique in game development, especially for frequently instantiated objects. This repository provides a complete Unity project showcasing the object pool's functionality, emphasizing its ability to handle generic object types through a well-defined inheritance structure.
+This project implements a highly flexible **object pooling system** in **C#/Unity**, designed to manage any object type that inherits from the `PoolableObject` abstract class. Object pooling is a critical optimization technique in game development, especially for frequently instantiated objects. This repository provides a complete Unity project showcasing the object pool's functionality, emphasizing its ability to handle generic object types through a well-defined inheritance structure.
 
 ### Key Features:
 
