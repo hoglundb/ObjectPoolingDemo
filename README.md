@@ -192,7 +192,8 @@ By using the `PoolManager`, you can easily manage all your object pools in one p
 
 ### 4. Example: Time-Based Poolable Object
 
-Let's create an example of a poolable object that automatically returns to the pool after a certain amount of time. This is a common use case for object pooling, especially for effects or temporary objects. We'll call this class `TimeBasedPoolableObject`:
+Let's create an example of a poolable object that automatically returns to the pool after a certain amount of time. This is a common use case for object pooling, especially for effects or temporary objects. We'll call this class `TimeBasedPoolableObject`. Note that
+we use the `Update()` loop instead of a `coroutine` as this will be more efficient for working with large numbers of objects.
 
 ```csharp
 using UnityEngine;
