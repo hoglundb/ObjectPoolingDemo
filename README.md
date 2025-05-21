@@ -190,7 +190,7 @@ This method returns an object to its pool.  It's crucial for object pooling to w
 By using the `PoolManager`, you can easily manage all your object pools in one place, making your code cleaner and more efficient.  It handles the creation and retrieval of pools, so you don't have to worry about the details in your other scripts.
 
 
-### 4. Example Time-Based Poolable Object
+### 4. Example: Time-Based Poolable Object
 
 Let's create an example of a poolable object that automatically returns to the pool after a certain amount of time. This is a common use case for object pooling, especially for effects or temporary objects. We'll call this class `TimeBasedPoolableObject`:
 
