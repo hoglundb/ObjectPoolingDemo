@@ -1,0 +1,37 @@
+# Treat all C# scripts as text with LF line endings
+*.cs text eol=lf
+
+# Unity scene, prefab, and asset files should be treated as binary
+*.unity binary
+*.prefab binary
+*.asset binary
+*.mat binary
+*.controller binary
+*.anim binary
+*.fbx binary
+*.png binary
+*.jpg binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.ttf binary
+*.otf binary
+
+# Shader files (editable text)
+*.shader text eol=lf
+
+# YAML metadata files
+*.meta text eol=lf
+
+# Ignore Unity-generated files
+[Ll]ibrary/ export-ignore
+[Tt]emp/ export-ignore
+[Bb]uild/ export-ignore
+[Bb]uilds/ export-ignore
+[Ll]ogs/ export-ignore
+obj/ export-ignore
+
+# Visual Studio
+*.sln text eol=crlf
+*.csproj text eol=crlf
+*.user text eol=crlf
